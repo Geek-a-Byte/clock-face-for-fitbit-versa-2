@@ -34,6 +34,8 @@ at last you may see the following results in your simulator console
 - started following the cli guide - https://dev.fitbit.com/build/guides/command-line-interface, where they forgot to mention that you need node js version 14.19.0 to be installed as prerequisite which costed me at least 10 hours of test and trials of web solutions, thanks to a complete stranger at discord group discussion :grateful:
 - you'll need chocolatey to download nodejs specific version for windows
 - https://community.chocolatey.org/packages/nodejs/14.19.0
+- I'll remember this - 
+![image](https://user-images.githubusercontent.com/59027621/156930172-386bad6c-9a54-42d1-9581-4bdab11a1f61.png)
 
 ### Now the following steps need to be done one after another
 
