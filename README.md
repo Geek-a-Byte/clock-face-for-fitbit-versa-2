@@ -41,7 +41,7 @@ at last you may see the following results in your simulator console
 
 #### step 1
 
-```js
+```console
 npx create-fitbit-app <project-name>
 cd <project-name>
 ```
@@ -55,7 +55,7 @@ cd <project-name>
 
 #### step 4
 
-```js
+```console
 npm install
 npx fitbit-build
 npx fitbit
