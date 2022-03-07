@@ -38,8 +38,6 @@ fitbit$ bi
 - now login with your creds
 - follow this [now](https://dev.fitbit.com/getting-started/)
 
-
-
 ## ``Issues``
 
 ### ``problem 1 : if you had continued with fitbit studio instead of cli``
@@ -51,16 +49,15 @@ fitbit$ bi
 ![image](https://user-images.githubusercontent.com/59027621/156912722-ead6729d-9477-43af-befe-524d41684cf4.png)
 
 ### ``problem 2 : if you had continued with fitbit studio instead of cli``
- 
+
 ![image](https://user-images.githubusercontent.com/59027621/156912890-66aaad17-a29e-416a-92db-42cf4b10183c.png)
 
-- solution - this is where the main problem started.. :facepalm: I need to shift to CLI mode for development 
+- solution - this is where the main problem started.. :facepalm: I need to shift to CLI mode for development
 - [explanation](https://community.fitbit.com/t5/SDK-Development/Sideload-of-app-failed-Connected-device-does-not-support-API-version/td-p/4584270) : my fitbit versa 2 has an in built sdk version of 4.1 which is not compatible with 4.3 which I started the project with in fitbit studio. and sigh there is no option for degrading the sdk version in fitbit studio so I have to go for cli mode to build the clock face.
 
 ### ``problem 3 : you need nodejs version 14.19.0 to work with the commands of fitbit cli guide``
 
-- started following the cli guide - https://dev.fitbit.com/build/guides/command-line-interface, where they forgot to mention that you need node js version 14.19.0 to be installed as prerequisite which costed me at least 10 hours of test and trials of web solutions, thanks to a complete stranger at discord group discussion :grateful:
-- you'll need chocolatey to download nodejs specific version for windows
-- https://community.chocolatey.org/packages/nodejs/14.19.0
-- I'll remember this - 
+- started following the [cli guide](https://dev.fitbit.com/build/guides/command-line-interface), where they forgot to mention that you need node js version 14.19.0 to be installed as prerequisite which costed me at least 10 hours of test and trials of web solutions, thanks to a complete stranger at discord group discussion you'll need chocolatey to download nodejs specific version for windows
+- [chocolatey nodejs](https://community.chocolatey.org/packages/nodejs/14.19.0)
+- I'll remember this -
 ![image](https://user-images.githubusercontent.com/59027621/156930172-386bad6c-9a54-42d1-9581-4bdab11a1f61.png)
